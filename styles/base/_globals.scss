@@ -42,3 +42,8 @@ h3, .h3 {
 h4, .h4 {
   @include fluid-text(20, 18);
 }
+
+::selection {
+  color: var(--color-light);
+  background-color: var(--color-dark-alt);
+}
