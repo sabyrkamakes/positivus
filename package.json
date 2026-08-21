@@ -1,0 +1,25 @@
+{
+  "name": "positivus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass --watch styles/main.scss styles/main.css",
+    "build": "sass --no-source-map --style=compressed styles/main.scss styles/main.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabyrkamakes/positivus.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sabyrkamakes/positivus/issues"
+  },
+  "homepage": "https://github.com/sabyrkamakes/positivus#readme",
+  "devDependencies": {
+    "sass": "^1.103.1"
+  }
+}
