@@ -18,6 +18,13 @@ svg * {
   transition-duration: var(--transition-duration);
 }
 
+a,
+button {
+  &:active {
+    scale: 0.97;
+  }
+}
+
 a {
   text-decoration: none;
   color: inherit;
